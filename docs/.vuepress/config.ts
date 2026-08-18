@@ -202,9 +202,7 @@ export default defineUserConfig({
      */
     commentPlugin({
       provider: 'Giscus',
-      // 仓库已从 Avicii13579/blog 迁移至 RowanLi-lab/blog。
-      // 恢复评论前，请先在 https://github.com/apps/giscus 安装 Giscus 并授权 RowanLi-lab/blog，再将 comment 改为 true。
-      comment: false,
+      comment: true,
       repo: 'RowanLi-lab/blog',
       repoId: 'R_kgDOOZtsDw',
       category: 'Announcements',
