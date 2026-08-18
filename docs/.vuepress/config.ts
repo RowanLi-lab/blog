@@ -35,10 +35,10 @@ export default defineUserConfig({
 
   theme: plumeTheme({
     /* 添加您的部署域名, 有助于 SEO, 生成 sitemap */
-    hostname: 'https://avicii13579.github.io/blog/',
+    hostname: 'https://rowanli-lab.github.io/blog/',
 
     /* 文档仓库配置，用于 editLink */
-    docsRepo: 'Avicii13579/blog',
+    docsRepo: 'RowanLi-lab/blog',
     docsDir: 'docs',
     docsBranch: 'master',
 
@@ -201,15 +201,17 @@ export default defineUserConfig({
      * @see https://giscus.app/ 获取 repoId 和 categoryId
      */
     commentPlugin({
-      provider: 'Giscus', // 评论系统类型，使用 Giscus
-      comment: true,      // 启用评论功能
-      repo: 'Avicii13579/blog', // GitHub 仓库名
-      repoId: 'R_kgDOOZtsDw',   // 仓库 ID，由 giscus.app 生成
-      category: 'Announcements', // Discussion 分类名
-      categoryId: 'DIC_kwDOOZtsD84CsWQv', // 分类 ID，由 giscus.app 生成
-      mapping: 'pathname',      // 评论与页面的映射关系，推荐 pathname
-      reactionsEnabled: true,   // 是否启用表情反应
-      inputPosition: 'top',     // 评论输入框位置
+      provider: 'Giscus',
+      // 仓库已从 Avicii13579/blog 迁移至 RowanLi-lab/blog。
+      // 恢复评论前，请先在 https://github.com/apps/giscus 安装 Giscus 并授权 RowanLi-lab/blog，再将 comment 改为 true。
+      comment: false,
+      repo: 'RowanLi-lab/blog',
+      repoId: 'R_kgDOOZtsDw',
+      category: 'Announcements',
+      categoryId: 'DIC_kwDOOZtsD84CsWQv',
+      mapping: 'pathname',
+      reactionsEnabled: true,
+      inputPosition: 'top',
     }),
   ],
 })
