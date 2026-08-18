@@ -171,6 +171,19 @@ export const getArticlesByTheme = (theme: string): Article[] => {
   ],
   "wealth": [
     {
+      "title": "金钱是行为，不是智商：《金钱心理学》读后感",
+      "link": "/blog/wealth/psychology-of-money-review/",
+      "tags": [
+        "财富理解"
+      ],
+      "categories": [
+        "财富管理"
+      ],
+      "date": "Tue Aug 18",
+      "description": "关于金钱决策背后的心理机制，以及如何在不确定性中做出更合理的财务选择",
+      "createTime": "2026/8/18"
+    },
+    {
       "title": "财商觉醒从这里开始：《穷爸爸富爸爸》带来的思维跃迁",
       "link": "/blog/wealth/rich-dad-poor-dad-review/",
       "tags": [
